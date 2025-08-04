@@ -1,0 +1,27 @@
+main {
+    display: grid;
+    justify-content: center;
+}
+#new-task {
+    display: flex;
+    width: 100%;
+}
+#input {
+    width: 100%;
+    padding: 8px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .completed span {
+    text-decoration: line-through;
+    color: rgb(128, 202, 107);
+  }
